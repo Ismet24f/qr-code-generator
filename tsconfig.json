@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "././src",
+    "rootDir": "././src",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["node_modules"],
+
+  /* Language and Environment */
+  "target": "es2016", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+  // ... (other properties)
+  
+  /* Modules */
+  "module": "commonjs", /* Specify what module code is generated. */
+  // ... (other properties)
+  
+  /* Type Checking */
+  "strict": true, /* Enable all strict type-checking options. */
+  // ... (other properties)
+  
+  /* Completeness */
+  "skipLibCheck": true /* Skip type checking all .d.ts files. */
+}
